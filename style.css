@@ -1,0 +1,49 @@
+.container-fluid{
+    background: linear-gradient(to right, #057bbe, #f3f2f5); 
+}
+
+#homeImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+#userIcon{
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+#userName{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #222;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hidden underline */
+  #userName::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: gold;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: width 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  /* Show underline on hover */
+  #userName:hover::after {
+    width: 60%;
+  }
+ 
