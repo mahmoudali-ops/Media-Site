@@ -46,4 +46,17 @@
   #userName:hover::after {
     width: 60%;
   }
+  .profile-card{
+    border: black;
+    width: 50%;
+    background-color: rgb(205, 207, 223);
+    align-items: center;
+    border-radius: 15px;
+    text-align: center;
+
+  }
+  .text-decoration-none{
+    text-shadow: #222;
+    justify-items: center;
+  }
  
